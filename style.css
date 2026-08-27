@@ -219,11 +219,11 @@ button {
     inset: -4%;
 
     background-image:
-        url("https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=2200&q=90");
+        url("hero.jpg");
 
     background-size: cover;
 
-    background-position: center;
+    background-position: center 38%;
 
     animation: heroZoom 14s ease-out forwards;
 }
@@ -315,15 +315,13 @@ button {
 .enter-button {
     display: inline-flex;
 
+    flex-direction: column;
+
     align-items: center;
 
-    gap: 13px;
+    gap: 10px;
 
     margin-top: 45px;
-
-    padding-bottom: 8px;
-
-    border-bottom: 1px solid rgba(255,255,255,0.65);
 
     font-size: 9px;
 
@@ -333,7 +331,13 @@ button {
 }
 
 .enter-button:hover {
-    gap: 23px;
+    gap: 20px;
+}
+
+.enter-label {
+    padding-bottom: 8px;
+
+    border-bottom: 1px solid rgba(255,255,255,0.65);
 }
 
 .sound {
