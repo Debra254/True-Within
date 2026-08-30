@@ -336,8 +336,14 @@ button {
 
 .enter-label {
     padding-bottom: 8px;
+}
+
+.enter-arrow {
+    padding-bottom: 8px;
 
     border-bottom: 1px solid rgba(255,255,255,0.65);
+
+    font-size: 14px;
 }
 
 .sound {
