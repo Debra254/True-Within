@@ -209,10 +209,12 @@ button {
 
     display: flex;
 
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 
     overflow: hidden;
+
+    padding-bottom: 15vh;
 }
 
 .hero-image {
@@ -303,6 +305,8 @@ button {
     line-height: 0.78;
 
     letter-spacing: -0.055em;
+
+    text-transform: uppercase;
 }
 
 .hero-subtitle {
@@ -1153,6 +1157,8 @@ footer {
         font-size: 70px;
 
         letter-spacing: -0.06em;
+
+        text-transform: uppercase;
     }
 
     .eyebrow {
