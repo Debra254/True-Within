@@ -264,3 +264,65 @@ images.forEach((image) => {
     });
 
 });
+
+/* =========================================
+   TRUE WITHIN
+   PHILOSOPHY PAGE
+========================================= */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const philosophyHero =
+        document.querySelector(".philosophy-hero");
+
+
+    if (!philosophyHero) {
+        return;
+    }
+
+
+    /*
+        Subtle mouse movement on desktop.
+        This creates a cinematic depth effect.
+    */
+
+    if (window.innerWidth > 1000) {
+
+        const background =
+            document.querySelector(
+                ".philosophy-background"
+            );
+
+
+        philosophyHero.addEventListener(
+            "mousemove",
+            (event) => {
+
+                const x =
+                    (event.clientX / window.innerWidth - 0.5) * 2;
+
+                const y =
+                    (event.clientY / window.innerHeight - 0.5) * 2;
+
+
+                background.style.transform =
+                    `scale(1.045)
+                     translate(${x * 5}px, ${y * 5}px)`;
+
+            }
+        );
+
+
+        philosophyHero.addEventListener(
+            "mouseleave",
+            () => {
+
+                background.style.transform =
+                    "scale(1.03)";
+
+            }
+        );
+
+    }
+
+});
