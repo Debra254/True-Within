@@ -1333,10 +1333,10 @@ footer {
     width: 100%;
     min-height: 100svh;
     box-sizing: border-box;
-    padding: 120px 7vw 70px;
+    padding: 70vh 7vw 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
@@ -1494,7 +1494,7 @@ footer {
     }
     .philosophy-content {
         min-height: 100svh;
-        padding: 0 24px 35px;
+        padding: 65vh 24px 50px;
     }
     .philosophy-kicker {
         margin-bottom: 28px;
