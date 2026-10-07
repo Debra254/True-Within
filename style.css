@@ -1479,24 +1479,21 @@ footer {
     }
     .philosophy-content {
         padding: 22vh 35px 55px;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
     }
     .philosophy-center-intro {
-        align-items: center;
-        text-align: center;
-    }
-    .philosophy-content h1 {
-        font-size: clamp(50px, 9vw, 85px);
+        align-items: flex-start;
+        text-align: left;
     }
     .philosophy-copy {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
     .philosophy-closing {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
     }
     .scroll-indicator {
         right: 35px;
@@ -1535,65 +1532,41 @@ footer {
     .philosophy-content {
         min-height: 100svh;
         padding: 20vh 24px 50px;
-        align-items: center;
-        text-align: center;
-    }
-    .philosophy-center-intro {
-        align-items: center;
-        text-align: center;
-    }
-    .philosophy-kicker {
-        margin-bottom: 16px;
-        font-size: 9px;
-        letter-spacing: 0.22em;
-    }
-    .philosophy-kicker-arrow {
-        margin-bottom: 28px;
-        font-size: 15px;
-    }
-    .philosophy-content h1 {
-        max-width: 100%;
-        font-size: clamp(40px, 11vw, 65px);
-        line-height: 0.93;
-        letter-spacing: -0.04em;
-    }
-    .philosophy-center-desc {
-        margin-top: 28px;
-        font-size: 14px;
-        line-height: 1.7;
-    }
-    .philosophy-divider {
-        margin-top: 35px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .philosophy-copy {
-        margin-top: 28px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .philosophy-copy p {
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: 1.7;
-        text-align: center;
-    }
-    .philosophy-closing {
-        margin-top: 28px;
-        gap: 18px;
-        margin-left: auto;
-        margin-right: auto;
+        align-items: flex-start;
         text-align: left;
     }
-    .closing-line {
-        min-height: 100px;
-    }
-    .philosophy-closing p {
-        font-size: 27px;
-        line-height: 1.05;
+    .philosophy-center-intro {
+        align-items: flex-start;
         text-align: left;
     }
     .scroll-indicator {
-        display: none;
+        right: 24px;
+        bottom: 30px;
+    }
+    .philosophy-divider {
+        margin-top: 35px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .philosophy-copy {
+        margin-top: 35px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .philosophy-copy p {
+        margin-bottom: 28px;
+        font-size: 16px;
+        line-height: 1.75;
+        text-align: left;
+    }
+    .philosophy-closing {
+        margin-top: 35px;
+        gap: 28px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+    .philosophy-closing p {
+        text-align: left;
     }
 }
